@@ -1,0 +1,17 @@
+table: creditrecovery    ---- 2016-06-02
+
+visitdate
+customercode
+customername
+TTYCode
+territoryname
+mobileno
+projectionamount
+installmentsize
+overdueamount
+nextvisitdate
+comittedamount
+actualpaidamount
+remarks
+supports
+UserName

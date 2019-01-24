@@ -1,0 +1,8 @@
+`visitdate``customercode``customername``TTYCode`
+`territoryname``mobileno``projectionamount``installmentsize`
+`overdueamount``nextvisitdate``comittedamount`
+`actualpaidamount``moneyreceipt``remarks``supports`
+`commitmentdate``nextphonecalldate``UserName`
+
+
+SELECT * FROM `creditrecovery` WHERE 1

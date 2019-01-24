@@ -1,0 +1,91 @@
+---Insert Region
+INSERT INTO regioninformation (RegionName) VALUES ('Rangpur');
+INSERT INTO regioninformation (RegionName) VALUES ('Rajshahi');
+INSERT INTO regioninformation (RegionName) VALUES ('Bogra');
+INSERT INTO regioninformation (RegionName) VALUES ('Dhaka');
+INSERT INTO regioninformation (RegionName) VALUES ('Sylhet');
+INSERT INTO regioninformation (RegionName) VALUES ('Feni');
+INSERT INTO regioninformation (RegionName) VALUES ('South Region');
+---------------------------------------
+--Insert Area
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Panchagarh','1');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Thakurgaon','1');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Setabgonj','1');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Dinajpur','1');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Nilphamari','1');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Rangpur','1');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Naogoan','2');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Rajshahi','2');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Bogra','3');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Kushtia','3');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Dhaka','4');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Kishorgonj','4');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Mymensingh','4');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Sylhet','5');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Habigonj','5');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('B.baria ','5');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Comilla','6');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Chittagong','6');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Noakhali Area (2)','6');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Barisal (2)','7');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Charfashion (2)','7');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Faridpur','7');
+INSERT INTO areainformation (AreaName,RegionID) VALUES ('Jessore (3)','7');
+----------------------------------------------------------------------------
+
+--Territory Infor
+
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Panchagarh','S0008','1');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Boda','S0007','1');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Thakurgaon-1','S0002','2');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Thakurgaon-2','S0003','2');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Pirganj','S0005','3');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Setabganj','S0001','3');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Birampur','S0006','4');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Dinajpur','S0004','4');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Nilphamari','g0004','5');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Lalmonirhat','G0003','5');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Rangpur','G0001','6');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Kurigram','g0005','6');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Gaibandha','g0002','6');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Naogaon-1','F0002','7');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Naogaon-2','F0007','7');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Naogaon-3','F0009','7');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Pabna','F0005','8');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Chapai ','F0004','8');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Rajshahi','F0003','8');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Bogra','F0008','9');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Joypurhat','F0001','9');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Natore','F0006','9');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Kushtia','N0008','10');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Meherpur','N0007','10');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Jhenaidah','N0005','10');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Chuadanga','N0002','10');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Gazipur','M0006','11');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Manikgonj','M0012','11');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Narshindi','M0003','12');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Kishorganj','M0001','12');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Mymensingh','M0002','13');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Jamalpur','M0008','13');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Tangail','m0010','13');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Sylhet','D0001','14');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Habiganj','D0003','15');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Madhobpur','D0008','15');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('B.Baria','','16');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Comilla','','17');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Laksham','B0002','17');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Laxmipur','B0006','17');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Chandpur','B0005','17');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Chittagong','B0009','18');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Feni','B0007','19');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Noakhali','B0008','19');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Barisal','N0010','20');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Charfasion','N0011','21');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Bhola','N0013','21');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Faridpur','n0004','22');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Madaripur','n0003','22');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Satkhira','N0006','23');
+INSERT INTO territoryinformation (TerritoryName,TerritoryCode,AreaID) VALUES ('Jessore','N0001','23');
+
+
+
